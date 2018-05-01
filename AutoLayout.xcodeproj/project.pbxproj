@@ -12,6 +12,12 @@
 		9AAF6CA42098101E005261BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF6CA22098101E005261BD /* Main.storyboard */; };
 		9AAF6CA62098101F005261BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF6CA52098101F005261BD /* Assets.xcassets */; };
 		9AAF6CA92098101F005261BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF6CA72098101F005261BD /* LaunchScreen.storyboard */; };
+		9AAF6CB120985A25005261BD /* SimpleStackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CB020985A25005261BD /* SimpleStackViewViewController.swift */; };
+		9AAF6CB320985AA0005261BD /* NestedStackViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CB220985AA0005261BD /* NestedStackViewsViewController.swift */; };
+		9AAF6CB520985AE7005261BD /* DynamicStackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CB420985AE7005261BD /* DynamicStackViewViewController.swift */; };
+		9AAF6CBB20988236005261BD /* SimpleConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CBA20988236005261BD /* SimpleConstraints.swift */; };
+		9AAF6CBE209895F3005261BD /* Views with Intrinsic Content Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CBD209895F3005261BD /* Views with Intrinsic Content Size.swift */; };
+		9AAF6CC12098BAAE005261BD /* Debugging Auto Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CC02098BAAE005261BD /* Debugging Auto Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		9AAF6CA52098101F005261BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAF6CA82098101F005261BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AAF6CAA2098101F005261BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAF6CB020985A25005261BD /* SimpleStackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStackViewViewController.swift; sourceTree = "<group>"; };
+		9AAF6CB220985AA0005261BD /* NestedStackViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedStackViewsViewController.swift; sourceTree = "<group>"; };
+		9AAF6CB420985AE7005261BD /* DynamicStackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackViewViewController.swift; sourceTree = "<group>"; };
+		9AAF6CBA20988236005261BD /* SimpleConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleConstraints.swift; sourceTree = "<group>"; };
+		9AAF6CBD209895F3005261BD /* Views with Intrinsic Content Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views with Intrinsic Content Size.swift"; sourceTree = "<group>"; };
+		9AAF6CC02098BAAE005261BD /* Debugging Auto Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Debugging Auto Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +68,50 @@
 			children = (
 				9AAF6C9E2098101E005261BD /* AppDelegate.swift */,
 				9AAF6CA02098101E005261BD /* ViewController.swift */,
+				9AAF6CB820987CFA005261BD /* Stack Views */,
+				9AAF6CB920987D13005261BD /* Simple Constraints */,
+				9AAF6CBC2098879B005261BD /* Views with Intrinsic Content Size */,
+				9AAF6CBF2098BA8B005261BD /* Debugging Auto Layout */,
 				9AAF6CA22098101E005261BD /* Main.storyboard */,
 				9AAF6CA52098101F005261BD /* Assets.xcassets */,
 				9AAF6CA72098101F005261BD /* LaunchScreen.storyboard */,
 				9AAF6CAA2098101F005261BD /* Info.plist */,
 			);
 			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		9AAF6CB820987CFA005261BD /* Stack Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF6CB020985A25005261BD /* SimpleStackViewViewController.swift */,
+				9AAF6CB220985AA0005261BD /* NestedStackViewsViewController.swift */,
+				9AAF6CB420985AE7005261BD /* DynamicStackViewViewController.swift */,
+			);
+			path = "Stack Views";
+			sourceTree = "<group>";
+		};
+		9AAF6CB920987D13005261BD /* Simple Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF6CBA20988236005261BD /* SimpleConstraints.swift */,
+			);
+			path = "Simple Constraints";
+			sourceTree = "<group>";
+		};
+		9AAF6CBC2098879B005261BD /* Views with Intrinsic Content Size */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF6CBD209895F3005261BD /* Views with Intrinsic Content Size.swift */,
+			);
+			path = "Views with Intrinsic Content Size";
+			sourceTree = "<group>";
+		};
+		9AAF6CBF2098BA8B005261BD /* Debugging Auto Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF6CC02098BAAE005261BD /* Debugging Auto Layout.swift */,
+			);
+			path = "Debugging Auto Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AAF6CA12098101E005261BD /* ViewController.swift in Sources */,
+				9AAF6CC12098BAAE005261BD /* Debugging Auto Layout.swift in Sources */,
+				9AAF6CB320985AA0005261BD /* NestedStackViewsViewController.swift in Sources */,
+				9AAF6CB520985AE7005261BD /* DynamicStackViewViewController.swift in Sources */,
+				9AAF6CBB20988236005261BD /* SimpleConstraints.swift in Sources */,
+				9AAF6CBE209895F3005261BD /* Views with Intrinsic Content Size.swift in Sources */,
+				9AAF6CB120985A25005261BD /* SimpleStackViewViewController.swift in Sources */,
 				9AAF6C9F2098101E005261BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
