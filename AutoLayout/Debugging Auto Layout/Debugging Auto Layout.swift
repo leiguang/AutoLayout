@@ -9,9 +9,9 @@
 // [Auto Layout Guide] -> [Debugging Auto Layout]
 
 
+// MARK: - [Types of Errors]
+
 /**
- 
- [Types of Errors]
  
  Errors in Auto Layout can be divided into three main categories:
  
@@ -21,9 +21,11 @@
  
  */
 
+
+
+// MARK: - [Unsatisfiable Layouts]
+
 /**
- 
- [Unsatisfiable Layouts]
  
  NOTE
  // Interface Builder 虽然会提示出不满足、模糊的约束，但它是根据当前界面元素的尺寸来监测的，无法找出运行时可能导致的约束错误.
@@ -43,10 +45,9 @@
  */
 
 
+// MARK: - [Ambiguous Layouts]
 
 /**
- 
- [Ambiguous Layouts]
  
  When an ambiguous layout occurs at runtime, Auto Layout chooses one of the possible solutions to use. This means the layout may or may not appear as you expect. Furthermore, there are no warnings written to the console, and there is no way to set a breakpoint for ambiguous layouts.
  As a result, ambiguous layouts are often harder to detect and identify than unsatisfiable layouts. Even if the ambiguity does have an obvious, visible effect, it can be hard to determine whether the error is due to ambiguity or to an error in your layout logic.
@@ -73,10 +74,9 @@
 
 
 
-/**
+// MARK: - [Debugging Tricks and Tips]
 
- [Debugging Tricks and Tips]
- 
+/**
  
  // Understanding the Logs
  For example, consider the log message:
