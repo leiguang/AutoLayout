@@ -20,7 +20,10 @@
 		9AAF6CC12098BAAE005261BD /* Debugging Auto Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CC02098BAAE005261BD /* Debugging Auto Layout.swift */; };
 		9AAF6CC4209A06BB005261BD /* LayoutAnchorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CC3209A06BB005261BD /* LayoutAnchorsViewController.swift */; };
 		9AAF6CC6209A15B8005261BD /* NSLayoutConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CC5209A15B8005261BD /* NSLayoutConstraintViewController.swift */; };
-		9AAF6CC8209A1C06005261BD /* VisualFormatLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF6CC7209A1C06005261BD /* VisualFormatLanguageViewController.swift */; };
+		9AFE149C209DB3D500199199 /* WorkingWithScrollViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE149B209DB3D500199199 /* WorkingWithScrollViewsViewController.swift */; };
+		9AFE149E209DBCDC00199199 /* Self-SizingCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE149D209DBCDC00199199 /* Self-SizingCellsViewController.swift */; };
+		9AFE14A0209DC9BE00199199 /* Changing Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE149F209DC9BE00199199 /* Changing Constraints.swift */; };
+		9AFE14A3209DD10700199199 /* Visual Format Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE14A2209DD10700199199 /* Visual Format Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +42,10 @@
 		9AAF6CC02098BAAE005261BD /* Debugging Auto Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Debugging Auto Layout.swift"; sourceTree = "<group>"; };
 		9AAF6CC3209A06BB005261BD /* LayoutAnchorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAnchorsViewController.swift; sourceTree = "<group>"; };
 		9AAF6CC5209A15B8005261BD /* NSLayoutConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintViewController.swift; sourceTree = "<group>"; };
-		9AAF6CC7209A1C06005261BD /* VisualFormatLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualFormatLanguageViewController.swift; sourceTree = "<group>"; };
+		9AFE149B209DB3D500199199 /* WorkingWithScrollViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithScrollViewsViewController.swift; sourceTree = "<group>"; };
+		9AFE149D209DBCDC00199199 /* Self-SizingCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Self-SizingCellsViewController.swift"; sourceTree = "<group>"; };
+		9AFE149F209DC9BE00199199 /* Changing Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Changing Constraints.swift"; sourceTree = "<group>"; };
+		9AFE14A2209DD10700199199 /* Visual Format Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Visual Format Language.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 				9AAF6CBC2098879B005261BD /* Views with Intrinsic Content Size */,
 				9AAF6CBF2098BA8B005261BD /* Debugging Auto Layout */,
 				9AAF6CC2209A0395005261BD /* Advanced Auto Layout */,
+				9AFE14A1209DCA3600199199 /* Visual Format Language */,
 				9AAF6CA22098101E005261BD /* Main.storyboard */,
 				9AAF6CA52098101F005261BD /* Assets.xcassets */,
 				9AAF6CA72098101F005261BD /* LaunchScreen.storyboard */,
@@ -126,9 +133,19 @@
 			children = (
 				9AAF6CC3209A06BB005261BD /* LayoutAnchorsViewController.swift */,
 				9AAF6CC5209A15B8005261BD /* NSLayoutConstraintViewController.swift */,
-				9AAF6CC7209A1C06005261BD /* VisualFormatLanguageViewController.swift */,
+				9AFE149B209DB3D500199199 /* WorkingWithScrollViewsViewController.swift */,
+				9AFE149D209DBCDC00199199 /* Self-SizingCellsViewController.swift */,
+				9AFE149F209DC9BE00199199 /* Changing Constraints.swift */,
 			);
 			path = "Advanced Auto Layout";
+			sourceTree = "<group>";
+		};
+		9AFE14A1209DCA3600199199 /* Visual Format Language */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE14A2209DD10700199199 /* Visual Format Language.swift */,
+			);
+			path = "Visual Format Language";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +226,12 @@
 				9AAF6CB320985AA0005261BD /* NestedStackViewsViewController.swift in Sources */,
 				9AAF6CB520985AE7005261BD /* DynamicStackViewViewController.swift in Sources */,
 				9AAF6CBB20988236005261BD /* SimpleConstraints.swift in Sources */,
-				9AAF6CC8209A1C06005261BD /* VisualFormatLanguageViewController.swift in Sources */,
+				9AFE149E209DBCDC00199199 /* Self-SizingCellsViewController.swift in Sources */,
 				9AAF6CBE209895F3005261BD /* Views with Intrinsic Content Size.swift in Sources */,
+				9AFE14A3209DD10700199199 /* Visual Format Language.swift in Sources */,
+				9AFE14A0209DC9BE00199199 /* Changing Constraints.swift in Sources */,
 				9AAF6CB120985A25005261BD /* SimpleStackViewViewController.swift in Sources */,
+				9AFE149C209DB3D500199199 /* WorkingWithScrollViewsViewController.swift in Sources */,
 				9AAF6C9F2098101E005261BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -275,14 +275,14 @@
                                             <segue destination="ZBR-8Q-eQq" kind="show" id="dNP-p3-wVZ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9eP-jh-ioB" style="IBUITableViewCellStyleDefault" id="2vL-TL-Vd1">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="gsN-cV-f3a" style="IBUITableViewCellStyleDefault" id="8Wd-F6-L1k">
                                         <rect key="frame" x="0.0" y="640" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2vL-TL-Vd1" id="Gxq-xw-NUD">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Wd-F6-L1k" id="ikN-I2-YLA">
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Visual Format Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9eP-jh-ioB">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Working with Scroll Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gsN-cV-f3a">
                                                     <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -292,7 +292,27 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Ped-Aw-PEM" kind="show" id="Vjr-wZ-cNJ"/>
+                                            <segue destination="Ryf-Pj-B5E" kind="show" id="679-LP-xs6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="THb-vD-fhw" style="IBUITableViewCellStyleDefault" id="gyM-W1-Are">
+                                        <rect key="frame" x="0.0" y="684" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gyM-W1-Are" id="Jng-hj-t2W">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Working with Self-Sizing Table View Cells" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="THb-vD-fhw">
+                                                    <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="msP-SS-mZm" kind="show" id="5d7-Qc-3mW"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -573,21 +593,111 @@
             </objects>
             <point key="canvasLocation" x="1322" y="1678"/>
         </scene>
-        <!--Visual Format Language-->
-        <scene sceneID="Qja-hW-CAV">
+        <!--Working with Scroll Views-->
+        <scene sceneID="JNf-Ja-yuI">
             <objects>
-                <viewController id="Ped-Aw-PEM" customClass="VisualFormatLanguageViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Q1G-04-VuZ">
+                <viewController id="Ryf-Pj-B5E" customClass="WorkingWithScrollViewsViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qeb-7w-qZZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spg-Sx-G9b">
+                                <rect key="frame" x="20" y="84" width="335" height="563"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNz-PJ-n9C">
+                                        <rect key="frame" x="0.0" y="0.0" width="205.5" height="1031.5"/>
+                                        <string key="text">
+
+
+
+“那明日你可否早些来？”
+
+
+
+“为何要早些 可有缘故？”
+
+
+
+“没什么缘故
+
+
+
+只是我见你生得好看
+
+
+
+闻着香甜
+
+
+
+便心里欢喜
+
+
+
+你若多来一时
+
+
+
+我便多欢喜一时” 
+
+
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hNz-PJ-n9C" secondAttribute="bottom" id="6dg-z9-47E"/>
+                                    <constraint firstAttribute="trailing" secondItem="hNz-PJ-n9C" secondAttribute="trailing" id="Is3-B0-dyA"/>
+                                    <constraint firstItem="hNz-PJ-n9C" firstAttribute="leading" secondItem="Spg-Sx-G9b" secondAttribute="leading" id="KTM-cE-0pQ"/>
+                                    <constraint firstItem="hNz-PJ-n9C" firstAttribute="top" secondItem="Spg-Sx-G9b" secondAttribute="top" id="h6A-gf-b4T"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Spg-Sx-G9b" firstAttribute="leading" secondItem="zTO-wq-Mn7" secondAttribute="leading" constant="20" id="GAG-lc-YUP"/>
+                            <constraint firstItem="Spg-Sx-G9b" firstAttribute="top" secondItem="zTO-wq-Mn7" secondAttribute="top" constant="20" id="Hp7-av-5YE"/>
+                            <constraint firstItem="zTO-wq-Mn7" firstAttribute="bottom" secondItem="Spg-Sx-G9b" secondAttribute="bottom" constant="20" id="Z94-zK-206"/>
+                            <constraint firstItem="zTO-wq-Mn7" firstAttribute="trailing" secondItem="Spg-Sx-G9b" secondAttribute="trailing" constant="20" id="yEN-AG-mLy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zTO-wq-Mn7"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Working with Scroll Views" id="48i-Nb-FPM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LNz-oa-mNI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2025" y="1676"/>
+        </scene>
+        <!--Working with Self-Sizing Table View Cells-->
+        <scene sceneID="tYy-K5-pxq">
+            <objects>
+                <viewController id="msP-SS-mZm" customClass="Self_SizingCellsViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7qT-ff-njX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="UdN-b3-4Ge"/>
+                        <viewLayoutGuide key="safeArea" id="lwY-aP-07k"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Visual Format Language" id="mED-xc-3lx"/>
+                    <navigationItem key="navigationItem" title="Working with Self-Sizing Table View Cells" id="SWx-Rw-dmP"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jXi-V0-db3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jhj-ij-e2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2025" y="1677"/>
+            <point key="canvasLocation" x="2722" y="1677"/>
         </scene>
         <!--Dynamic Height Label and Text Field-->
         <scene sceneID="R0e-mS-aiT">
