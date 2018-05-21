@@ -22,6 +22,9 @@
  */
 
 
+// Swift 可使用 “expr -l objc++ -o -- [[UIWindow keyWindow] _autolayoutTrace]” 来在控制台debug。
+// > [Auto Layout Debugging In Swift](https://medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf)
+
 
 // MARK: - [Unsatisfiable Layouts]
 
